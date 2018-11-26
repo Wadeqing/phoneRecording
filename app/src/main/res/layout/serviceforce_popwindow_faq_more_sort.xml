@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/serviceforce_linearlayout_popwindow_faq_more"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CC000000"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/serviceforce_gridview_faq_more_sort"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:horizontalSpacing="20dp"
+        android:background="@android:color/white"
+        android:numColumns="3"
+        android:padding="15dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:verticalSpacing="20dp"></GridView>
+
+
+</LinearLayout>

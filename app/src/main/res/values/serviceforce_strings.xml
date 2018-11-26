@@ -1,0 +1,50 @@
+<resources>
+
+
+
+    <string name="serviceforce_system_error">系统错误，请稍后重试</string>
+    <string name="serviceforce_network_error">网络错误，请检查您的网络设置</string>
+    <string name="serviceforce_service_error">服务器正在维护，请稍后。。。</string>
+    <!--标题栏-->
+    <string name="serviceforce_title_contact_us">联系我们</string>
+    <string name="serviceforce_title_faq">使用帮助</string>
+    <string name="serviceforce_title_chat">在线客服</string>
+
+
+    <string name="serviceforce_chat_comment_title1">请您为本次服务进行评价</string>
+    <string name="serviceforce_chat_comment_inquire_tip">请您选择不满意的原因：</string>
+    <string name="serviceforce_chat_comment_inquire1">产品相关不满意</string>
+    <string name="serviceforce_chat_comment_inquire2">操作系统不满意</string>
+    <string name="serviceforce_chat_comment_inquire3">员工服务不满意</string>
+    <string name="serviceforce_chat_comment_inquire4">其他原因</string>
+    <string name="serviceforce_chat_comment_inquire_other_tip">请填写不满意的原因，以便我们更好地为您服务！(选填)</string>
+
+    <string name="serviceforce_chat_comment_level1">非常不满意</string>
+    <string name="serviceforce_chat_comment_level2">不满意</string>
+    <string name="serviceforce_chat_comment_level3">一般</string>
+    <string name="serviceforce_chat_comment_level4">满意</string>
+    <string name="serviceforce_chat_comment_level5">非常满意</string>
+
+    <!--机器人-->
+    <string name="serviceforce_chat_transfer_tip">不好意思，这个意思超出我的范围啦~您可以选择下面两种方式进行人工咨询服务~么么哒~</string>
+    <string name="serviceforce_chat_robot_tip">先别慌，点击下面的问题就能找到你想要的答案呦~</string>
+    <string name="serviceforce_chat_transfer_to_robot">机器人客服</string>
+    <string name="serviceforce_chat_transfer_to_service">人工在线客服</string>
+    <string name="serviceforce_chat_transfer_to_phone">电话客服</string>
+
+
+
+    <!--录音错误-->
+    <string name="serviceforce_error_no_sdcard">没有SD卡，无法存储录音数据</string>
+    <string name="serviceforce_error_state_record">正在录音中，请先停止录音</string>
+    <string name="serviceforce_error_unknown">无法识别的错误</string>
+
+
+    <!--联系我们提示信息-->
+    <string name="serviceforce_contact_tip_weibo">长按复制微博名</string>
+    <string name="serviceforce_contact_tip_weixin">长按复制微信公共账号</string>
+    <string name="serviceforce_contact_tip_qq">长按复制QQ号</string>
+    <string name="serviceforce_contact_tip_phone">点击拨打 </string>
+
+
+</resources>

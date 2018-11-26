@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <WebView
+            android:id="@+id/serviceforce_webview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></WebView>
+
+        <ImageView
+            android:id="@+id/serviceforce_imageview_webview_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="10dp"
+            android:src="@drawable/serviceforce_icon_webview_back" />
+    </FrameLayout>
+</LinearLayout>

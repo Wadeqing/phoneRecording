@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="给个五星鼓励一下律师吧~"
+        android:textColor="@color/text_color_33gray"
+        android:textSize="@dimen/text_size_super_big" />
+
+    <RatingBar
+        android:id="@+id/raringbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:numStars="5"
+        android:stepSize="1"
+        android:progressTint="#fdc001"
+        android:rating="5" />
+
+    <EditText
+        android:id="@+id/edittext_appraise"
+        android:layout_width="294dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/edittext_bg"
+        android:gravity="left"
+        android:hint="请写下不足之处，以便我们更好的改进"
+        android:padding="5dp"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="294dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="26dp"
+        android:layout_marginTop="26dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_cancle"
+            android:layout_width="128dp"
+            android:layout_height="42dp"
+            android:background="@drawable/textview_backgroud_round"
+            android:gravity="center"
+            android:text="@string/button_cancle"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_big" />
+
+        <Button
+            android:id="@+id/button_sure"
+            android:layout_width="128dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="38dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="确认"
+            android:textColor="@color/text_color_white" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/serviceforce_faq_content_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/serviceforce_textview_faq_item_sort_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/serviceforce_faq_content_padding"
+        android:text="标题"
+        android:textColor="@color/serviceforce_faq_content_text"
+        android:textSize="@dimen/serviceforce_faq_content_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/serviceforce_faq_gray_in_line" />
+
+    <LinearLayout
+        android:id="@+id/serviceforce_linearlayout_faq_item_sort1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/serviceforce_faq_content_bg"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/serviceforce_linearlayout_faq_item_sort2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/serviceforce_faq_content_bg"
+        android:orientation="vertical"
+        android:visibility="gone"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/serviceforce_linearlayout_faq_item_sort_more"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/serviceforce_textview_faq_item_sort_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="查看更多"
+            android:textColor="#999999"
+            android:textSize="12sp"
+            />
+
+        <ImageView
+            android:id="@+id/serviceforce_imageview_faq_item_sort_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/serviceforce_icon_arrow_down" />
+    </LinearLayout>
+
+
+</LinearLayout>

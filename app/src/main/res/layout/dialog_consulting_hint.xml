@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="提示"
+        android:textColor="@color/text_color_33gray"
+        android:textSize="@dimen/text_size_super_big" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_color_ccgray" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/textview_detail_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp"
+        android:lineSpacingExtra="3dp"
+        android:text="@string/phone_num_hint"
+        android:textColor="@color/text_color_00gray"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textview_button_sure"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/text_color_white"
+        android:textSize="@dimen/text_size_super_big" />
+</LinearLayout>

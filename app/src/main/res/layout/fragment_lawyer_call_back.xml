@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_backgoud">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swiperefresh_call_lawyer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/text_color_eegray">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview_call_lawyer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_null_data_default"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/text_color_white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="120dp">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:src="@drawable/consulting_bg_missing_default" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="47dp"
+                android:text="这里什么都没有，去试试打通电话把~"
+                android:textColor="@color/text_color_99gray"
+                android:textSize="@dimen/text_size_middle" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

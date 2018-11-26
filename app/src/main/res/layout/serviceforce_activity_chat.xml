@@ -1,0 +1,242 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/serviceforce_chat_bg"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/serviceforce_view_title"></include>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <!-- <ListView
+             android:id="@+id/serviceforce_listview_chat"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_marginBottom="60dp"
+             android:cacheColorHint="#00000000"
+             android:divider="@null"
+             android:fadingEdge="none"
+             android:listSelector="@android:color/transparent"
+             android:scrollingCache="false"></ListView>-->
+
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <cn.serviceforce.cssdk.view.DropdownListView
+                android:id="@+id/serviceforce_listview_chat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="60dp"
+                android:cacheColorHint="#00000000"
+                android:divider="@null"
+                android:dividerHeight="10dp"
+                android:fadingEdge="none"
+                android:listSelector="@android:color/transparent"
+                android:scrollingCache="false"
+                android:transcriptMode="normal" />
+
+            <View
+                android:id="@+id/serviceforce_view_chat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="60dp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/serviceforce_chat_record_remind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="60dp"
+                android:background="@drawable/serviceforce_chat_voice_remind"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:visibility="invisible">
+
+                <ImageView
+                    android:id="@+id/serviceforce_imageview_chat_record_remind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/serviceforce_imageview_chat_record_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/serviceforce_record_cancel"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/serviceforce_imageview_chat_record_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/serviceforce_record_cancel"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/serviceforce_textview_chat_record_remind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/serviceforce_chat_voice_cancel_remind_red_bg"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="哈哈哈哈哈哈"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#bfbfbf"></View>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/serviceforce_chat_edittext_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/serviceforce_chat_submit_white_bg"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageButton
+                    android:id="@+id/serviceforce_imagebutton_chat_type_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@null"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/serviceforce_icon_chat_more_type"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/serviceforce_edittext_chat"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/serviceforce_chat_edit_bg"
+                        android:padding="10dp"
+                        android:textStyle="normal"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:id="@+id/serviceforce_button_chat_voice_submit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/serviceforce_chat_edit_bg"
+                        android:text="按住说话"
+                        android:textColor="@color/serviceforce_chat_voice_btn_unpressed"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/serviceforce_button_chat_text_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@null"
+                    android:padding="8dp"
+                    android:text="发送"
+                    android:textColor="@color/serviceforce_chat_submit_btn_text"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/serviceforce_imageviewbutton_chat_voice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/serviceforce_icon_voice_btn"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#bfbfbf"
+                android:visibility="gone"></View>
+
+            <LinearLayout
+                android:id="@+id/serviceforce_linearlayout_chat_submit_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="15dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/serviceforce_imageview_type_pic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:paddingTop="15dp"
+                        android:src="@drawable/serviceforce_icon_chat_type_pic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="图片"
+                        android:textColor="@color/serviceforce_gray"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/serviceforce_imageview_type_camera"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:paddingTop="15dp"
+                        android:src="@drawable/serviceforce_icon_chat_type_camera" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="照相"
+                        android:textColor="@color/serviceforce_gray"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

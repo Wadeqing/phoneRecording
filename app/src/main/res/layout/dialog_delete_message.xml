@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/message_delete"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/text_color_white"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="删除"
+        android:textColor="@color/text_color_33gray"
+        android:textSize="@dimen/text_size_middle" />
+
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/statu_bar_color"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/statu_bar" />
+
+    <include layout="@layout/view_title" />
+
+    <com.tmall.ultraviewpager.UltraViewPager
+        android:id="@+id/banner_ultraviewpager"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/default_backgoud">
+
+    </com.tmall.ultraviewpager.UltraViewPager>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_mine_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/text_color_white"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/register_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="@string/mine_preferential"
+            android:textColor="@color/text_color_33gray" />
+
+        <TextView
+            android:id="@+id/textview_mayuse_coupon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/text_color_99gray"
+            android:textSize="@dimen/text_size_middle" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13dp"
+            android:src="@drawable/mine_icon_right_default" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/devide_color_e5gray" />
+
+    <LinearLayout
+        android:id="@+id/lineaylayout_share_friend"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/text_color_white"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview_share_friend"
+                style="@style/register_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mine_to_friend"
+                android:textColor="@color/text_color_33gray" />
+
+            <TextView
+                android:id="@+id/textview_share_friend_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/mine_to_friend_detail"
+                android:textColor="@color/text_color_66gray" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13dp"
+            android:src="@drawable/mine_icon_right_default" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/devide_color_e5gray" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout_goto_opinion"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/text_color_white"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview_goto_opinion"
+                style="@style/register_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/go_to_five_stars"
+                android:textColor="@color/text_color_33gray" />
+
+            <TextView
+                android:id="@+id/textview_goto_opinion_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/high_opinion"
+                android:textColor="@color/text_color_66gray" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13dp"
+            android:src="@drawable/mine_icon_right_default" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/default_backgoud" />
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/serviceforce_faq_content_bg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/serviceforce_faq_content_padding"
+    android:paddingRight="@dimen/serviceforce_faq_content_padding">
+
+    <TextView
+        android:id="@+id/serviceforce_textview_faq_no_sort_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/serviceforce_faq_content_bg"
+        android:padding="@dimen/serviceforce_faq_content_padding"
+        android:text="这个问题怎么办？？"
+        android:textColor="@color/serviceforce_faq_content_text"
+        android:textSize="@dimen/serviceforce_faq_content_text_size" />
+
+    <View
+        android:id="@+id/serviceforce_item_faq_no_sort_content_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/serviceforce_faq_gray_in_line"></View>
+
+</LinearLayout>

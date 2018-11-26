@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/serviceforce_dialog_transparent_with_line_bg"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="客服现在忙碌，请您耐心等待，我们会尽快回复您；"
+        android:textColor="@color/serviceforce_gray"
+        android:textSize="16sp" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:text="前方排队人数："
+            android:textColor="@color/serviceforce_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textview_dialog_line_up_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/serviceforce_chat_text_blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="人"
+            android:textColor="@color/serviceforce_gray"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#999999"></View>
+
+    <TextView
+        android:id="@+id/serviceforce_textview_dialog_call_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="退出排队"
+        android:textColor="#E60012"
+        android:textSize="16sp" />
+</LinearLayout>

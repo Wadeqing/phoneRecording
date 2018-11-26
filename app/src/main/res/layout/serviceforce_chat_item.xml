@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/serviceforce_textview_chat_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@drawable/serviceforce_chat_gray_bg"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/serviceforce_textview_item_customer_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/serviceforce_chat_text"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/serviceforce_textview_item_sales_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/serviceforce_textview_item_customer_time"
+        android:layout_marginLeft="@dimen/serviceforce_chat_content_left_margin"
+        android:layout_marginRight="@dimen/serviceforce_chat_content_left_margin"
+        android:background="@drawable/serviceforce_icon_other_chat_bg"
+        android:padding="15dp"
+        android:textColor="@color/serviceforce_chat_text"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/serviceforce_linearlayout_chat_text_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/serviceforce_textview_item_customer_time"
+        android:layout_marginLeft="@dimen/serviceforce_chat_content_left_margin"
+        android:layout_marginRight="@dimen/serviceforce_chat_content_left_margin"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/serviceforce_button_chat_text_resubmit"
+            android:layout_width="@dimen/serviceforce_chat_resubmit_button"
+            android:layout_height="@dimen/serviceforce_chat_resubmit_button"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/serviceforce_icon_chat_resubmit"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/serviceforce_textview_item_customer_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/serviceforce_icon_my_chat_bg"
+            android:padding="15dp"
+            android:textColor="@color/serviceforce_chat_text"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

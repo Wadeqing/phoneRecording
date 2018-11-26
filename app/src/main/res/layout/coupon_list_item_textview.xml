@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview_lock_past_records"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="查看历史记录"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_small" />
+</android.support.constraint.ConstraintLayout>

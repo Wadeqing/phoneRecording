@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#44a515</color>
+    <color name="colorPrimaryDark">#44a515</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_color_66gray">#666666</color>
+    <color name="text_color_a4gray">#a4a4a4</color>
+    <color name="text_color_99gray">#999999</color>
+    <color name="text_color_ccgray">#cccccc</color>
+    <color name="devide_color_e5gray">#e5e5e5</color>
+    <color name="color00">#000000</color>
+    <color name="text_color_eegray">#eeeeee</color>
+    <color name="text_color_f5gray">#f5f5f5</color>
+    <color name="text_color_33gray">#333333</color>
+    <color name="text_color_00gray">#000000</color>
+    <color name="text_color_white">#ffffff</color>
+    <color name="statu_bar_color">#ffffff</color>
+    <color name="text_color_5858">#585858</color>
+    <color name="text_color_direction">#fd813a</color>
+    <color name="colorPrimary_66">#6644a515</color>
+    <color name="text_color_orange">#ffba10</color>
+    <color name="default_backgoud">#f2f2f2</color>
+    <color name="color_trans">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#ffccddff</color>
+    <color name="grey">#58616d</color>
+    <color name="darkgrey">#ff404040</color>
+    <color name="toasterro">#9fd524</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="semitransparent">#80000000</color>
+    <color name="lightransparent">#a0000000</color>
+    <color name="transparent">#ffffffff</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="indexbar_bg">#66111111</color>
+</resources>

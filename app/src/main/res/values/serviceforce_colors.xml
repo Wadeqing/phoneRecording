@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--标题栏-->
+    <color name="serviceforce_title_bg">#ffffff</color>
+    <color name="serviceforce_title_text">#2B2B2B</color>
+    <color name="serviceforce_title_line">#CBCBCB</color>
+
+    <!--聊天-->
+    <color name="serviceforce_chat_bg">#f6f6f6</color>
+    <color name="serviceforce_chat_submit_white_bg">#F2F2F2</color>
+    <color name="serviceforce_chat_submit_btn_text">#2962D8</color>
+    <color name="serviceforce_chat_text">#000000</color>
+    <color name="serviceforce_gray">#737373</color>
+    <color name="serviceforce_chat_voice_press">#CBCBCB</color>
+    <color name="serviceforce_chat_voice_unpress">#00000000</color>
+    <color name="serviceforce_chat_url_text_blue">#2962D8</color>
+    <color name="serviceforce_transparent">#00000000</color>
+    <color name="serviceforce_chat_voice_btn_unpressed">#676767</color>
+
+    <!--机器人聊天-->
+    <color name="serviceforce_chat_text_blue">#0da0de</color>
+    <color name="serviceforce_chat_text_yellow">#f19149</color>
+
+
+
+    <!--使用帮助-->
+    <color name="serviceforce_faq_bg">#EDEDED</color>
+    <color name="serviceforce_faq_gray_out_line">#DBDBDB</color>
+    <color name="serviceforce_faq_gray_in_line">#E5E5E5</color>
+    <color name="serviceforce_faq_content_bg">#FFFFFF</color>
+    <color name="serviceforce_faq_content_text">#000000</color>
+</resources>

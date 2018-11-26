@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">录音取证</string>
+
+
+    <!-- api error toast -->
+    <string name="system_error">系统错误，请稍后重试</string>
+    <string name="network_error">网络错误，请检查您的网络设置</string>
+    <string name="service_error">服务器正在维护，请稍后。。。</string>
+
+    <!--MainActivity-->
+    <string name="call">拨号</string>
+    <string name="contact">通讯录</string>
+    <string name="consulting">律师咨询</string>
+    <string name="mine">我的</string>
+    <string name="direction_for_use">使用说明</string>
+    <string name="direction_for_use_detail">帮助2,000,000用户一起留存正义，总通话录音时间超过8,300,000小时。\n\n新用户可享受3分钟免费录音体验，首次充值还可获得最高全额奖励返还特权。\n\n录音文件无法收听时，您可登陆官网（http://iluyin.cn）进行下载保存。</string>
+    <string name="network_off_tip">请检查您的网络连接</string>
+    <string name="network_error_tip">当前网络不可用</string>
+    <string name="hide_phone_num">隐藏本机号码</string>
+    <string name="show_phone_num">使用本机号码</string>
+    <!-- login-->
+    <string name="get_validate_code">获取验证码</string>"
+
+    <string name="register_input_phone_num">请输入手机号</string>
+    <string name="register_input_validate_code">请输入验证码</string>
+    <string name="register_enter_new_password">请输入6~12位新密码</string>
+    <string name="register_re_enter_new_password">请再次输入新密码</string>
+    <string name="register_new_password">新密码</string>
+    <string name="register_confirm_password">确认密码</string>
+
+    <!--mineFragment-->
+    <string name="mine_recording_currency">录音币</string>
+    <string name="mine_account_details">账户详情</string>
+    <string name="mine_recharge">充值</string>
+    <string name="mine_mine_recording">我的录音</string>
+    <string name="mine_law_service">法律工具</string>
+    <string name="mine_apply_for_dhyg">申请存证</string>
+    <string name="mine_preferential_activity">优惠活动</string>
+    <string name="mine_free_to_win_the_recording_currency">免费赢取录音币</string>
+    <string name="mine_message_center">消息中心</string>
+    <string name="mine_frequently_asked_questions">常见问题</string>
+    <string name="mine_customer_service">在线客服</string>
+    <string name="mine_system_set">系统设置</string>
+    <string name="set">设置</string>
+
+    <!--recharge activity-->
+    <string name="recharge_now_recording_currency">当前拥有录音币：</string>
+    <string name="recharge_explain">充值说明：</string>
+    <string name="recharge_explain_detail">1、您可以选择以上4种充值套餐，直接点击进行充值。\n2、不同的充值套餐会额外赠送不同数额的录音币。\n3、电话录音费用为：8录音币/分钟。\n4、充值用户的录音文件将永久保存在云端，未充值用户仅保存30天。录音文件可在PC端随时下载。</string>
+
+    <!--申请存证-->
+    <string name="evidence_manager">证据管理</string>
+    <!--优惠活动-->
+    <string name="mine_preferential">我的优惠券</string>
+    <string name="mine_to_friend">分享给好友</string>
+    <string name="go_to_five_stars">去五星好评</string>
+    <string name="mine_to_friend_detail">每天首次分享成功可随机获得优惠券</string>
+    <string name="high_opinion">五星好评后即可获取优惠券</string>
+
+    <!--系统设置-->
+    <string name="logout">退出登录</string>
+    <string name="download_record">下载记录</string>
+    <string name="talk_line">通话线路</string>
+    <string name="revise_password">修改密码</string>
+    <string name="about_us">关于我们</string>
+    <!--popupwindow-->
+    <string name="popupwindow_hint">拨打固话前请加区号</string>
+
+    <!--loginactivity-->
+    <string name="phone_num">手机号</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="forgot_password">忘记密码?</string>
+    <string name="now_register">立即注册</string>
+    <string name="phone_record">录音取证</string>
+
+    <!--充值dialog-->
+    <string name="pay_hint">充值提醒</string>
+
+    <!--关于我们-->
+    <string name="phone_recording">电话录音</string>
+    <string name="synopsis">最具有法律效力的通话取证录音软件</string>
+    <string name="about_one">即时通话录音过程真实清晰不可篡改，实时云端安全存储，为用户提供最具法律效力的录音证据，同时提供电子存证服务让证据法律效力倍增，帮助用户轻松保存有效证据化解各类纠纷，被国家公证和司法中心领衔推荐为——“最有法律效应的录音"服务。</string>
+    <string name="about_two">为进一步满足用户对法律咨询的需求，平台签约全国100000+的精英律师团队，用户可以在线一键呼叫专业律师解决疑问，也可以将自己的问题和困惑通过留言发送平台，由专业律师回电答复。</string>
+    <string name="features">产品特点:</string>
+    <string name="features_one">高保真通话录音，过程真实清晰不可篡改。</string>
+    <string name="features_two">录音文件实时存证，安全保存至云端储存。</string>
+    <string name="features_three">一键在线呼叫律师，快速解决纠纷疑问。</string>
+    <string name="features_four">隐藏或显示号码自由选择，无惧黑名单拦截。</string>
+    <string name="features_five">电子存证、律师咨询，让证据更有效力。</string>
+
+    <!--coupon-->
+    <string name="coupon_use_rule">优惠券使用规则</string>
+    <string name="coupon_use_rule_detail">一次通话仅能使用一张优惠券，系统自动选择最优，不可叠加，通话后优惠券会自动扣除;超出优惠券的通话时长将自动扣除录音币</string>
+
+
+    <!--consulting-->
+    <string name="phone_num_hint">为什么要输入手机号码？\n在线咨询要求您输入可实时方便接听的本机号码，其功能是为了放在在线接单律师能准确、快速的发起来电与您取得联系，并开始咨询沟通。\n\n我的号码会不会被泄露？\n在此期间，您无需支付额外通讯费用并且您的手机号会被隐藏保护，不会发生信息泄露情况。</string>
+    <string name="not_sufficient_founds">您的录音币余额不足500，无法拨打律师团电话，请充值后重试。</string>
+    <string name="button_sure">确定</string>
+    <string name="button_cancle">取消</string>
+    <string name="goto_recharge">去充值</string>
+
+    <string name="app_back">返回</string>
+    <string name="app_ok">确定</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_continue">继续</string>
+    <string name="app_tip">提示</string>
+    <string name="app_send">发送</string>
+    <string name="app_set">设置</string>
+    <string name="app_save">保存</string>
+    <string name="app_delete">删除</string>
+    <string name="app_nextstep">下一步</string>
+    <string name="app_prevstep">上一步</string>
+    <string name="app_finish">完成</string>
+    <string name="app_find">查找</string>
+    <string name="app_edit">编辑</string>
+
+    <!-- applet -->
+    <string name="applet_secimg_title">填写验证码</string>
+    <string name="applet_secimg_change">换一张图片</string>
+    <string name="applet_seccode_tip">验证码不能为空</string>
+    <string name="applet_seccode_fail_tip">验证码错误，请重新输入</string>
+
+    <!-- verify -->
+    <string name="verify_password_null_tip">密码不能为空，请输入密码</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+</resources>

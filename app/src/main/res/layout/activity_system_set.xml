@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_backgoud"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/statu_bar"
+        android:background="@drawable/white_background" />
+
+    <include layout="@layout/view_title" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout_download_record"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/text_color_white"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            style="@style/register_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:text="@string/download_record"
+            android:textColor="@color/text_color_33gray" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13dp"
+            android:src="@drawable/mine_icon_right_default" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_talk_line"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/text_color_white"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mine_icon_set_default" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/register_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:text="@string/talk_line"
+            android:textColor="@color/text_color_33gray" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13dp"
+            android:src="@drawable/mine_icon_right_default" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_revise_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/text_color_white"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            style="@style/register_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:text="@string/revise_password"
+            android:textColor="@color/text_color_33gray" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13dp"
+            android:src="@drawable/mine_icon_right_default" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/text_color_white"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            style="@style/register_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:text="@string/about_us"
+            android:textColor="@color/text_color_33gray" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13dp"
+            android:src="@drawable/mine_icon_right_default" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_backgroud_enable"
+        android:gravity="center"
+        android:text="@string/logout"
+        android:textColor="@color/text_color_white"
+        android:textSize="@dimen/text_size_super_big" />
+</LinearLayout>

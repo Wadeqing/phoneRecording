@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_dialog_contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/text_color_white"
+        android:gravity="center"
+        android:textColor="@color/text_color_33gray"
+        android:textSize="@dimen/text_size_super_big" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_color_ccgray" />
+
+    <TextView
+        android:id="@+id/textview_dialog_contact_num1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/text_color_white"
+        android:gravity="center_vertical"
+        android:textColor="@color/text_color_33gray"
+        android:textSize="@dimen/text_size_super_big" />
+
+    <View
+        android:id="@+id/devide_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/text_color_eegray" />
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:id="@+id/textview_dialog_contact_num2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/text_color_white"
+        android:gravity="center_vertical"
+        android:textColor="@color/text_color_33gray"
+        android:textSize="@dimen/text_size_super_big" />
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/devide_2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/text_color_eegray" />
+
+    <TextView
+        android:id="@+id/textview_dialog_contact_num3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="30dp"
+        android:visibility="gone"
+        android:background="@color/text_color_white"
+        android:gravity="center_vertical"
+        android:textColor="@color/text_color_33gray"
+        android:textSize="@dimen/text_size_super_big" />
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/devide_3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/text_color_eegray" />
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:id="@+id/textview_dialog_contact_num4"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/text_color_white"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:textColor="@color/text_color_33gray"
+        android:textSize="@dimen/text_size_super_big" />
+
+    <View
+        android:id="@+id/devide_4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:visibility="gone"
+        android:background="@color/text_color_eegray" />
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:id="@+id/textview_dialog_contact_num5"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:visibility="gone"
+        android:background="@color/text_color_white"
+        android:gravity="center_vertical"
+        android:textColor="@color/text_color_33gray"
+        android:textSize="@dimen/text_size_super_big" />
+</LinearLayout>

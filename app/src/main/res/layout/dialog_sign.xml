@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="106dp"
+    android:background="@drawable/white_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="28dp"
+        android:text="请完成签名后保存"
+        android:textColor="@color/text_color_99gray"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:background="@color/text_color_ccgray" />
+
+    <TextView
+        android:id="@+id/textview_dialog_sign_sure"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="13dp"
+        android:text="知道了"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_15sp" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_dialog_wxpay"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/green_background_top_conner"
+        android:gravity="center"
+        android:text="微信支付"
+        android:textColor="@color/text_color_white"
+        android:textSize="@dimen/text_size_super_big" />
+
+    <Button
+        android:id="@+id/button_dialog_alipay"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/white_background_bottom_conner"
+        android:gravity="center"
+        android:text="支付宝支付"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_super_big" />
+
+    <Button
+        android:id="@+id/button_cancle_pay"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/white_background"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_super_big" />
+
+</LinearLayout>

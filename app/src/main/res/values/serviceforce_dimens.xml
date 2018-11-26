@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--标题栏-->
+    <dimen name="serviceforce_view_title_height">51dp</dimen>
+    <dimen name="serviceforce_view_title_inner_height">49dp</dimen>
+    <dimen name="serviceforce_view_title_padding">15dp</dimen>
+
+
+    <!--客服聊天-->
+    <dimen name="serviceforce_chat_content_left_margin">20dp</dimen>
+    <dimen name="serviceforce_chat_edittext_height">60dp</dimen>
+    <dimen name="serviceforce_chat_resubmit_button">20dp</dimen>
+
+    <!--使用帮助-->
+    <dimen name="serviceforce_faq_top_margin">20dp</dimen>
+    <dimen name="serviceforce_faq_content_padding">10dp</dimen>
+    <dimen name="serviceforce_faq_content_text_size">14sp</dimen>
+</resources>

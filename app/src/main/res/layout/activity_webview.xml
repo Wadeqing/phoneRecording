@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/statu_bar_color"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/statu_bar"
+        android:background="@color/text_color_white" />
+
+    <include layout="@layout/view_title" />
+
+    <FrameLayout
+        android:id="@+id/fragment_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_bottom_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/button_save_native"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="@color/text_color_white"
+            android:gravity="center"
+            android:text="保存至本地相册"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button_save_internet"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/text_color_white"
+            android:gravity="center"
+            android:text="保存至其他途径"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp" />
+    </LinearLayout>
+</LinearLayout>

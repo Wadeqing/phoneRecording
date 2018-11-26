@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="使用本机号码拨号"
+        android:textColor="@color/text_color_33gray"
+        android:textSize="@dimen/text_size_super_big" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_color_ccgray" />
+
+    <TextView
+        android:id="@+id/textview_detail_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp"
+        android:text="该功能可使用本机电话号码且通过电话录音软件提供的特殊专线转接，完成外呼和录音的功能。使用本机号码拨号可以避免由于被叫号码手机设置白名单机制所导致的呼叫无法接听的问题，为用户提供多种通话录音的选择。"
+        android:textColor="@color/text_color_00gray"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textview_button_sure"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="知道了"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/text_color_white"
+        android:textSize="@dimen/text_size_super_big" />
+</LinearLayout>

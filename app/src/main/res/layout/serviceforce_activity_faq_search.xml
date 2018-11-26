@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/serviceforce_faq_bg"
+    android:focusable="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:focusable="false"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/serviceforce_chat_edittext_bg"
+            android:focusable="false"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/serviceforce_imagebutton_faq_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:focusable="false"
+                android:padding="5dp"
+                android:src="@drawable/serviceforce_icon_faq_search" />
+
+            <EditText
+                android:id="@+id/serviceforce_edittext_faq_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="问题/关键字"
+                android:imeOptions="actionSearch"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/serviceforce_gray"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/serviceforce_imageview_faq_search_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:focusable="false"
+                android:padding="5dp"
+                android:src="@drawable/serviceforce_icon_faq_search_cancel"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/serviceforce_button_faq_search_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            android:focusable="false"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="取消"
+            android:textColor="@color/serviceforce_gray"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#A9A9A9" />
+
+    <ListView
+        android:id="@+id/serviceforce_listview_faq_search"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:scrollingCache="false"
+        android:visibility="visible"></ListView>
+
+    <TextView
+        android:id="@+id/serviceforce_textview_faq_search_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="无结果"
+        android:textColor="@color/serviceforce_gray"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</LinearLayout>

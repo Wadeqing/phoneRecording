@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/serviceforce_chat_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/serviceforce_view_title"></include>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#DBDBDB"></View>
+
+            <TextView
+                android:id="@+id/serviceforce_textview_faq_question"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="10dp"
+                android:textColor="@android:color/black" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="10dp"
+                android:background="#DBDBDB"></View>
+
+
+            <TextView
+                android:id="@+id/serviceforce_textview_faq_answer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="10dp"
+                android:textColor="@android:color/black" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#DBDBDB"></View>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/serviceforce_contact_top_line"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/serviceforce_faq_gray_out_line"
+        android:visibility="visible"></View>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:id="@+id/serviceforce_linearlayout_contact_btn_one"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/serviceforce_imageview_contact_btn_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/serviceforce_icon_contact_us" />
+
+            <TextView
+                android:id="@+id/serviceforce_textview_contact_btn_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="heihei" />
+
+            <TextView
+                android:id="@+id/serviceforce_textview_contact_one_red_cnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/serviceforce_icon_red_cnt_bg"
+                android:gravity="center|top"
+                android:text="99+"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/serviceforce_linearlayout_contact_btn_two"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:id="@+id/serviceforce_linearlayout_contact_btn1"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <ImageView
+                    android:id="@+id/serviceforce_imageview_contact_btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:src="@drawable/serviceforce_icon_contact_us" />
+
+                <TextView
+                    android:id="@+id/serviceforce_textview_contact_btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="heihei" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/serviceforce_textview_contact1_red_cnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/serviceforce_icon_red_cnt_bg"
+                android:gravity="center"
+                android:text="99+"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/serviceforce_faq_gray_out_line"></View>
+
+        <FrameLayout
+            android:id="@+id/serviceforce_linearlayout_contact_btn2"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/serviceforce_imageview_contact_btn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:src="@drawable/serviceforce_icon_contact_us" />
+
+                <TextView
+                    android:id="@+id/serviceforce_textview_contact_btn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="heihei" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/serviceforce_textview_contact2_red_cnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/serviceforce_icon_red_cnt_bg"
+                android:gravity="center"
+                android:text="99+"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/serviceforce_faq_gray_out_line"></View>
+
+        <FrameLayout
+            android:id="@+id/serviceforce_linearlayout_contact_btn3"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/serviceforce_imageview_contact_btn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:src="@drawable/serviceforce_icon_contact_us" />
+
+                <TextView
+                    android:id="@+id/serviceforce_textview_contact_btn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="heihei" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/serviceforce_textview_contact3_red_cnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/serviceforce_icon_red_cnt_bg"
+                android:gravity="center"
+                android:text="99+"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

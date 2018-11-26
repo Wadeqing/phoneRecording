@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="请保证字迹工整且姓名与身份证信息一致"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/button_cancel_sig"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:padding="10dp"
+            android:src="@drawable/home_icon_close_default" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/devide_color_e5gray" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@color/text_color_eegray">
+
+        <com.sinocall.phonerecordera.widget.SignatureView
+            android:id="@+id/signatureview_sig"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/button_clear_sig"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_bg"
+            android:text="重写"
+            android:textColor="@color/text_color_00gray"
+            android:textSize="@dimen/text_size_super_big" />
+
+        <Button
+            android:id="@+id/button_save_sig"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/textview_green_background"
+            android:text="保存"
+            android:textColor="@color/text_color_white"
+            android:textSize="@dimen/text_size_super_big" />
+
+    </LinearLayout>
+</LinearLayout>
